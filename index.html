@@ -6,7 +6,21 @@
   <title>Document</title>
 </head>
 <body>
+
+
+  <p>Loan Amount: <input type="number" id="number1Field"></p>
+  <p>Interest rate per year: <input type="number" id="number2Field"></p>
+  <p>Loan Term in years<input type="number" id="number3Field"></p>
+  <input type="button" value="calculate" id="calculateButton"/>
+
+  <p>Monthly payment rate: <input type="number" id="answer1Field"></p>
+
+  <p>Total interest: <input type="number" id="answer2Field"></p>
   
   <script src="scripts/mortgageCalculator.js"></script>
+
+  <script>
+    window.onload = handleOnload;
+  </script>
 </body>
 </html>
